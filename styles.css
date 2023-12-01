@@ -1,0 +1,46 @@
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 720px;
+    height: 720px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.box {
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.change-color {
+    background-color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    width: 100px;
+    margin: 20px;
+}
